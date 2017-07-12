@@ -1,6 +1,6 @@
 var total = 0
 
-function score(){
+function score(id){
     if (id == "A"){
       total = total+5
     }
