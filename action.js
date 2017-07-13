@@ -27,16 +27,16 @@ function getSign()
     if (total > 50){
       document.getElementById('yoursign').innerHTML="Gemini";
     }
-    else if (total > ){
+    else if (total > 49 ){
       document.getElementById('yoursign').innerHTML="Cancer";
     }
-    else if (total >){
+    else if (total > 48){
       document.getElementById('yoursign').innerHTML="Aries";
     }
-    else if (total >){
+    else if (total >47){
       document.getElementById('yoursign').innerHTML="Virgo";
     }
-    else if (total > 49){
+    else if (total > 40){
       document.getElementById('yoursign').innerHTML="Capricorn";
     }
     else if (total > 30){
@@ -45,19 +45,19 @@ function getSign()
     else if (total > 20){
       document.getElementById('yoursign').innerHTML="Taurus";
     }
-    else if (total >){
+    else if (total >15){
       document.getElementById('yoursign').innerHTML="Scorpio";
     }
-    else if (total >){
+    else if (total >10){
       document.getElementById('yoursign').innerHTML="Libra";
     }
-    else if (total >){
+    else if (total >5){
       document.getElementById('yoursign').innerHTML="Aquarius";
     }
-    else if (total >){
+    else if (total >4){
       document.getElementById('yoursign').innerHTML="Pisces";
     }
-    else (total >){
+    else {
       document.getElementById('yoursign').innerHTML="Sagittarius";
     }
 }
