@@ -4,6 +4,7 @@ point_levels["B"]=3
 point_levels["C"]=1
 point_levels["D"]=0
 
+
 var Taurus = ["Hard worker","Coolest personality or Worst temper", "Easily loved by others", "Always act strong"]
 var Capricorn = ["You are a very loving person," "Can be a little hard on other", "Realist and down to earth", "Good with saving money"]
 var Aquarius = ["Always pay attention", "Others would never know when you're angry", "You tend to care alot," "Secound chances are important to you"]
@@ -35,6 +36,7 @@ function getTotalPoints()
 
 function getSign()
 {
+    
     var total = getTotalPoints();
 
     if (total > 50){
@@ -76,5 +78,5 @@ function getSign()
 }
 
 function show(){
-  document.getElementById("results").style.visibility = "visibile";
+  document.getElementById("results").style.visibility = "visible";
 }
