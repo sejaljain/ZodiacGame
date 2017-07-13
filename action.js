@@ -28,7 +28,7 @@ function getTotalPoints()
 
   for(i = 0; i < listofbuttons.length; i++)
   {
-    if(listofbuttons[i].checked);
+    if(listofbuttons[i].checked)
     {
       TotalPoints += point_levels[listofbuttons[i].value];
     }
@@ -41,7 +41,7 @@ function getSign()
 
     var total = getTotalPoints();
 
-    if (total > 74){
+    if (total > 49){
       document.getElementById('yoursign').innerHTML="Gemini";
       document.getElementById('1').innerHTML=Gemini[0];
       document.getElementById('2').innerHTML=Gemini[1];
@@ -49,7 +49,7 @@ function getSign()
       document.getElementById('4').innerHTML=Gemini[3];
     }
 
-    else if (total > 72 ){
+    else if (total > 47 ){
 
       document.getElementById('yoursign').innerHTML="Cancer";
       document.getElementById('1').innerHTML=Cancer[0];
@@ -57,7 +57,7 @@ function getSign()
       document.getElementById('3').innerHTML=Cancer[2];
       document.getElementById('4').innerHTML=Cancer[3];
     }
-    else if (total > 70){
+    else if (total > 45){
       document.getElementById('yoursign').innerHTML="Aries";
       document.getElementById('1').innerHTML=Aries[0];
       document.getElementById('2').innerHTML=Aries[1];
@@ -65,7 +65,7 @@ function getSign()
       document.getElementById('4').innerHTML=Aries[3];
     }
 
-    else if (total >65){
+    else if (total >40){
 
       document.getElementById('yoursign').innerHTML="Virgo";
       document.getElementById('1').innerHTML=Virgo[0];
@@ -74,7 +74,7 @@ function getSign()
       document.getElementById('4').innerHTML=Virgo[3];
     }
 
-    else if (total > 60){
+    else if (total > 38){
 
       document.getElementById('yoursign').innerHTML="Capricorn";
       document.getElementById('1').innerHTML=Capricorn[0];
@@ -82,14 +82,14 @@ function getSign()
       document.getElementById('3').innerHTML=Capricorn[2];
       document.getElementById('4').innerHTML=Capricorn[3];
     }
-    else if (total > 55){
+    else if (total > 35){
       document.getElementById('yoursign').innerHTML="Leo";
       document.getElementById('1').innerHTML=Leo[0];
       document.getElementById('2').innerHTML=Leo[1];
       document.getElementById('3').innerHTML=Leo[2];
       document.getElementById('4').innerHTML=Leo[3];
     }
-    else if (total > 50){
+    else if (total > 32){
       document.getElementById('yoursign').innerHTML="Taurus";
       document.getElementById('1').innerHTML=Taurus[0];
       document.getElementById('2').innerHTML=Taurus[1];
@@ -97,7 +97,7 @@ function getSign()
       document.getElementById('4').innerHTML=Taurus[3];
     }
 
-    else if (total >47){
+    else if (total >29){
 
       document.getElementById('yoursign').innerHTML="Scorpio";
       document.getElementById('1').innerHTML=Scorpio[0];
@@ -106,7 +106,7 @@ function getSign()
       document.getElementById('4').innerHTML=Scorpio[3];
     }
 
-    else if (total >45){
+    else if (total >26){
 
       document.getElementById('yoursign').innerHTML="Libra";
       document.getElementById('1').innerHTML=Libra[0];
@@ -116,7 +116,7 @@ function getSign()
     }
 
 
-    else if (total >41){
+    else if (total >24){
 
       document.getElementById('yoursign').innerHTML="Aquarius";
       document.getElementById('1').innerHTML=Aquarius[0];
@@ -125,7 +125,7 @@ function getSign()
       document.getElementById('4').innerHTML=Aquarius[3];
     }
 
-    else if (total >35){
+    else if (total >20){
 
       document.getElementById('yoursign').innerHTML="Pisces";
       document.getElementById('1').innerHTML=Pisces[0];
