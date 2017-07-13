@@ -4,11 +4,7 @@ point_levels["B"]=3
 point_levels["C"]=1
 point_levels["D"]=0
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
->>>>>>> 29a5c4faca3b0a3c09a19a3083c34989c47e263a
 var Taurus = ["Hard worker","Coolest personality or Worst temper", "Easily loved by others", "Always act strong"]
 var Capricorn = ["You are a very loving person," "Can be a little hard on other", "Realist and down to earth", "Good with saving money"]
 var Aquarius = ["Always pay attention", "Others would never know when you're angry", "You tend to care alot," "Secound chances are important to you"]
@@ -21,19 +17,8 @@ var Libra = ["Bossy","Likes to make good first impression","Flirts and doesnt re
 var Scorpio = ["Loved by many","Very dramatic","Always make others laugh","Over protective of loved ones"]
 var Sagittarius = ["Straight forwardness","Highly competitve","Has a way to tell when someone is lying","A wonderful sense of humor"]
 var Virgo = ["Will be completely honest with you","Goofy","Holds a conversation forever","Over thinks alot of things"]
-<<<<<<< HEAD
-=======
-var Taurus = ["fact one here","fact two", "fact three"]
-var Capricorn = ["fact one here", "fact two", "fact three"]
-var Aquarius = ["fact one", "face two", "fact three"]
-var Pisces = ["fact one", "fact two", "fact three"]
-var Aries = ["fact one", "fact two", "fact three"]
-var Gemini = ["fact one", "fact two", "fact three"]
-var Cancer = ["fact one", "fact two", "fact three"]
-var Leo = ["fact one", "fact two", "fact three"]
->>>>>>> 9e982f0850dbb8232ae5acc4bca93fdaf078b35e
-=======
->>>>>>> 29a5c4faca3b0a3c09a19a3083c34989c47e263a
+
+
 
 function getTotalPoints()
 {
@@ -58,39 +43,101 @@ function getSign()
 
     if (total > 50){
       document.getElementById('yoursign').innerHTML="Gemini";
+      document.getElementById('1').innerHTML=Gemini[0];
+      document.getElementById('2').innerHTML=Gemini[1];
+      document.getElementById('3').innerHTML=Gemini[2];
+      document.getElementById('4').innerHTML=Gemini[3];
     }
+
     else if (total > 49 ){
+
       document.getElementById('yoursign').innerHTML="Cancer";
+      document.getElementById('1').innerHTML=Cancer[0];
+      document.getElementById('2').innerHTML=Cancer[1];
+      document.getElementById('3').innerHTML=Cancer[2];
+      document.getElementById('4').innerHTML=Cancer[3];
     }
     else if (total > 48){
       document.getElementById('yoursign').innerHTML="Aries";
+      document.getElementById('1').innerHTML=Aries[0];
+      document.getElementById('2').innerHTML=Aries[1];
+      document.getElementById('3').innerHTML=Aries[2];
+      document.getElementById('4').innerHTML=Aries[3];
     }
+
     else if (total >47){
+
       document.getElementById('yoursign').innerHTML="Virgo";
+      document.getElementById('1').innerHTML=Virgo[0];
+      document.getElementById('2').innerHTML=Virgo[1];
+      document.getElementById('3').innerHTML=Virgo[2];
+      document.getElementById('4').innerHTML=Virgo[3];
     }
+
     else if (total > 40){
+
       document.getElementById('yoursign').innerHTML="Capricorn";
+      document.getElementById('1').innerHTML=Capricorn[0];
+      document.getElementById('2').innerHTML=Capricorn[1];
+      document.getElementById('3').innerHTML=Capricorn[2];
+      document.getElementById('4').innerHTML=Capricorn[3];
     }
-    else if (total > 30){
+    else if (total > 45){
       document.getElementById('yoursign').innerHTML="Leo";
+      document.getElementById('1').innerHTML=Leo[0];
+      document.getElementById('2').innerHTML=Leo[1];
+      document.getElementById('3').innerHTML=Leo[2];
+      document.getElementById('4').innerHTML=Leo[3];
     }
-    else if (total > 20){
+    else if (total > 44){
       document.getElementById('yoursign').innerHTML="Taurus";
+      document.getElementById('1').innerHTML=Taurus[0];
+      document.getElementById('2').innerHTML=Taurus[1];
+      document.getElementById('3').innerHTML=Taurus[2];
+      document.getElementById('4').innerHTML=Taurus[3];
     }
+
     else if (total >15){
+
       document.getElementById('yoursign').innerHTML="Scorpio";
+      document.getElementById('1').innerHTML=Scorpio[0];
+      document.getElementById('2').innerHTML=Scorpio[1];
+      document.getElementById('3').innerHTML=Scorpio[2];
+      document.getElementById('4').innerHTML=Scorpio[3];
     }
+
     else if (total >10){
+
       document.getElementById('yoursign').innerHTML="Libra";
+      document.getElementById('1').innerHTML=Libra[0];
+      document.getElementById('2').innerHTML=Libra[1];
+      document.getElementById('3').innerHTML=Libra[2];
+      document.getElementById('4').innerHTML=Libra[3];
     }
+
     else if (total >5){
+
       document.getElementById('yoursign').innerHTML="Aquarius";
+      document.getElementById('1').innerHTML=Aquarius[0];
+      document.getElementById('2').innerHTML=Aquarius[1];
+      document.getElementById('3').innerHTML=Aquarius[2];
+      document.getElementById('4').innerHTML=Aquarius[3];
     }
+
     else if (total >4){
+
       document.getElementById('yoursign').innerHTML="Pisces";
+      document.getElementById('1').innerHTML=Pisces[0];
+      document.getElementById('2').innerHTML=Pisces[1];
+      document.getElementById('3').innerHTML=Pisces[2];
+      document.getElementById('4').innerHTML=Pisces[3];
     }
     else {
       document.getElementById('yoursign').innerHTML="Sagittarius";
+      document.getElementById('1').innerHTML=Sagittarius[0];
+      document.getElementById('2').innerHTML=Sagittarius[1];
+      document.getElementById('3').innerHTML=Sagittarius[2];
+      document.getElementById('4').innerHTML=Sagittarius[3];
     }
 }
 
