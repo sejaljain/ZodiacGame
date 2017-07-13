@@ -73,13 +73,9 @@ function getSign()
       document.getElementById('3').innerHTML=Virgo[2];
       document.getElementById('4').innerHTML=Virgo[3];
     }
-<<<<<<< HEAD
-    else if (total > 40){
-=======
 
-    else if (total > 40){
+    else if (total > 46){
 
->>>>>>> 959c16b53b3950ed106ed93d0004f74e66940416
       document.getElementById('yoursign').innerHTML="Capricorn";
       document.getElementById('1').innerHTML=Capricorn[0];
       document.getElementById('2').innerHTML=Capricorn[1];
@@ -100,52 +96,37 @@ function getSign()
       document.getElementById('3').innerHTML=Taurus[2];
       document.getElementById('4').innerHTML=Taurus[3];
     }
-<<<<<<< HEAD
-    else if (total >15){
-=======
 
-    else if (total >15){
+    else if (total >43){
 
->>>>>>> 959c16b53b3950ed106ed93d0004f74e66940416
       document.getElementById('yoursign').innerHTML="Scorpio";
       document.getElementById('1').innerHTML=Scorpio[0];
       document.getElementById('2').innerHTML=Scorpio[1];
       document.getElementById('3').innerHTML=Scorpio[2];
       document.getElementById('4').innerHTML=Scorpio[3];
     }
-<<<<<<< HEAD
-    else if (total >10){
-=======
 
-    else if (total >10){
+    else if (total >42){
 
->>>>>>> 959c16b53b3950ed106ed93d0004f74e66940416
       document.getElementById('yoursign').innerHTML="Libra";
       document.getElementById('1').innerHTML=Libra[0];
       document.getElementById('2').innerHTML=Libra[1];
       document.getElementById('3').innerHTML=Libra[2];
       document.getElementById('4').innerHTML=Libra[3];
     }
-<<<<<<< HEAD
-    else if (total >5){
-=======
 
-    else if (total >5){
 
->>>>>>> 959c16b53b3950ed106ed93d0004f74e66940416
+    else if (total >41){
+
       document.getElementById('yoursign').innerHTML="Aquarius";
       document.getElementById('1').innerHTML=Aquarius[0];
       document.getElementById('2').innerHTML=Aquarius[1];
       document.getElementById('3').innerHTML=Aquarius[2];
       document.getElementById('4').innerHTML=Aquarius[3];
     }
-<<<<<<< HEAD
-    else if (total >4){
-=======
 
-    else if (total >4){
+    else if (total >40){
 
->>>>>>> 959c16b53b3950ed106ed93d0004f74e66940416
       document.getElementById('yoursign').innerHTML="Pisces";
       document.getElementById('1').innerHTML=Pisces[0];
       document.getElementById('2').innerHTML=Pisces[1];
