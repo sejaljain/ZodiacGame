@@ -5,14 +5,13 @@ point_levels["C"]=1
 point_levels["D"]=0
 
 var Taurus = ["fact one here","fact two", "fact three"]
-var Capricorn = ["fact one here," "fact two", "fact three"]
+var Capricorn = ["fact one here", "fact two", "fact three"]
 var Aquarius = ["fact one", "face two", "fact three"]
 var Pisces = ["fact one", "fact two", "fact three"]
 var Aries = ["fact one", "fact two", "fact three"]
 var Gemini = ["fact one", "fact two", "fact three"]
 var Cancer = ["fact one", "fact two", "fact three"]
 var Leo = ["fact one", "fact two", "fact three"]
-var
 
 function getTotalPoints()
 {
@@ -32,6 +31,7 @@ function getTotalPoints()
 
 function getSign()
 {
+    
     var total = getTotalPoints();
 
     if (total > 50){
@@ -73,5 +73,5 @@ function getSign()
 }
 
 function show(){
-  document.getElementById("results").style.visibility = "visibile";
+  document.getElementById("results").style.visibility = "visible";
 }
