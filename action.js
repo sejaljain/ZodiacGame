@@ -15,7 +15,7 @@ var Leo = ["Very dramatic", "Good friend", "Sensitive on the inside","Seeing fri
 var Libra = ["Bossy","Likes to make good first impression","Flirts and doesnt realize it","Doesnt like to be rushed"]
 var Scorpio = ["Loved by many","Very dramatic","Always make others laugh","Over protective of loved ones"]
 var Sagittarius = ["Straight forwardness","Highly competitve","Has a way to tell when someone is lying","A wonderful sense of humor"]
-var Virgo = ["Will be completely honest with you","goofy","Holds a conversation forever","Over thinks alot of things"]
+var Virgo = ["Will be completely honest with you","Goofy","Holds a conversation forever","Over thinks alot of things"]
 
 function getTotalPoints()
 {
