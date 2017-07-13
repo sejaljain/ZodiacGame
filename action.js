@@ -40,7 +40,7 @@ function getSign()
 {
 
     var total = getTotalPoints();
-
+    console.log(total);
     if (total > 50){
       document.getElementById('yoursign').innerHTML="Gemini";
       document.getElementById('1').innerHTML=Gemini[0];
