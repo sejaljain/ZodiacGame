@@ -4,6 +4,7 @@ point_levels["B"]=3
 point_levels["C"]=1
 point_levels["D"]=0
 
+<<<<<<< HEAD
 var Taurus = ["Hard worker","Coolest personality or Worst temper", "Easily loved by others", "Always act strong"]
 var Capricorn = ["You are a very loving person," "Can be a little hard on other", "Realist and down to earth", "Good with saving money"]
 var Aquarius = ["Always pay attention", "Others would never know when you're angry", "You tend to care alot," "Secound chances are important to you"]
@@ -16,6 +17,16 @@ var Libra = ["Bossy","Likes to make good first impression","Flirts and doesnt re
 var Scorpio = ["Loved by many","Very dramatic","Always make others laugh","Over protective of loved ones"]
 var Sagittarius = ["Straight forwardness","Highly competitve","Has a way to tell when someone is lying","A wonderful sense of humor"]
 var Virgo = ["Will be completely honest with you","Goofy","Holds a conversation forever","Over thinks alot of things"]
+=======
+var Taurus = ["fact one here","fact two", "fact three"]
+var Capricorn = ["fact one here", "fact two", "fact three"]
+var Aquarius = ["fact one", "face two", "fact three"]
+var Pisces = ["fact one", "fact two", "fact three"]
+var Aries = ["fact one", "fact two", "fact three"]
+var Gemini = ["fact one", "fact two", "fact three"]
+var Cancer = ["fact one", "fact two", "fact three"]
+var Leo = ["fact one", "fact two", "fact three"]
+>>>>>>> 9e982f0850dbb8232ae5acc4bca93fdaf078b35e
 
 function getTotalPoints()
 {
@@ -35,6 +46,7 @@ function getTotalPoints()
 
 function getSign()
 {
+    
     var total = getTotalPoints();
 
     if (total > 50){
@@ -76,5 +88,5 @@ function getSign()
 }
 
 function show(){
-  document.getElementById("results").style.visibility = "visibile";
+  document.getElementById("results").style.visibility = "visible";
 }
