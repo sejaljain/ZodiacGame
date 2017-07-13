@@ -6,7 +6,7 @@ point_levels["D"]=0
 
 var Taurus = ["Hard worker","Coolest personality or Worst temper", "Easily loved by others", "Always act strong"]
 var Capricorn = ["You are a very loving person," "Can be a little hard on other", "Realist and down to earth", "Good with saving money"]
-var Aquarius = ["Always pay attention", "Others would never know when your angry", "You tend to care alot," "Secound chances are important to you"]
+var Aquarius = ["Always pay attention", "Others would never know when you're angry", "You tend to care alot," "Secound chances are important to you"]
 var Pisces = ["Can make friends easily with a stranger", "A problem solver", "A dreamer and a romantic","Speaks fluent sarcasm"]
 var Aries = ["Trust is very important to you", "You're a good friend who support him/her", "Mostly quiet in large groups", "Highly competitve"]
 var Gemini = ["Loves hard", "Feels like no one understands you", "Perfers not to talk about deep feelings","Mood swings"]
