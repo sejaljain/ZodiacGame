@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+
+      <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="startpage.css">
   <script src="startpage.js"></script>
 </head>
+<body>
 <div class="instructions">
  <header><center> Welcome To the Zodiac Adventure Game !!</center></header>
 
@@ -12,3 +18,13 @@
   you chose we will give results on which Zodiac sign fits you best. Click start to begin.</p>
 </div>
 <button class="start"><a href="questions.html">Start</a></button>
+<canvas id="canvas"></canvas>
+
+<div id="stats"></div>
+
+<div class="instructions">Click anywhere</div>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/84/three.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/stats.js/r11/Stats.min.js'></script>
+
+  <script src="js/index.js"></script>
+</body>
