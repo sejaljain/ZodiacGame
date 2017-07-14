@@ -5,16 +5,16 @@ point_levels["C"]=1
 point_levels["D"]=0
 
 
-var Taurus = ["Hard worker","Coolest personality or Worst temper", "Easily loved by others", "Always act strong"]
-var Capricorn = ["You are a very loving person", "Can be a little hard on other", "Realist and down to earth", "Good with saving money"]
-var Aquarius = ["Always pay attention", "Others would never know when you're angry", "You tend to care alot", "Secound chances are important to you"]
+var Taurus = ["Hard worker","Coolest personality or worst temper", "Easily loved by others", "Always act strong"]
+var Capricorn = ["You are a very loving person", "Can be a little hard on others", "Realist and down to earth", "Good with saving money"]
+var Aquarius = ["Always pay attention", "Others would never know when you're angry", "You tend to care a lot", "Second chances are important to you"]
 var Pisces = ["Can make friends easily with a stranger", "A problem solver", "A dreamer and a romantic","Speaks fluent sarcasm"]
 var Aries = ["Trust is very important to you", "You're a good friend who support him/her", "Mostly quiet in large groups", "Highly competitve"]
-var Gemini = ["Loves hard", "Feels like no one understands you", "Perfers not to talk about deep feelings","Mood swings"]
-var Cancer = ["Natural protective over people", "Very sensitive and moody", "Remembers everything","Your smile warm hearts"]
+var Gemini = ["Loves hard", "Feels like no one understands you", "Prefers not to talk about deep feelings","Mood swings"]
+var Cancer = ["Natural protective over people", "Very sensitive and moody", "Remembers everything","Your smile warms hearts"]
 var Leo = ["Very dramatic", "Good friend", "Sensitive on the inside","Seeing friends/family happy makes them happy"]
-var Libra = ["Bossy","Likes to make good first impression","Flirts and doesnt realize it","Doesnt like to be rushed"]
-var Scorpio = ["Loved by many","Very dramatic","Always make others laugh","Over protective of loved ones"]
+var Libra = ["Bossy","Likes to make good first impression","Flirts and doesn't realize it","Doesn't like to be rushed"]
+var Scorpio = ["Loved by many","Very dramatic","Always make others laugh","Over-protective of loved ones"]
 var Sagittarius = ["Straight forwardness","Highly competitve","Has a way to tell when someone is lying","A wonderful sense of humor"]
 var Virgo = ["Will be completely honest with you","Goofy","Holds a conversation forever","Over thinks alot of things"]
 
@@ -145,4 +145,3 @@ function getSign()
 function show(){
   document.getElementById("results").style.visibility = "visible";
 }
-
