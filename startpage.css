@@ -1,7 +1,7 @@
 body {
   background: #3E4777;
   overflow: hidden;
-  margin: 0;
+  margin: 2;
 }
 
 .instructions {
@@ -9,7 +9,7 @@ body {
   top: 20px;
   right: 20px;
   letter-spacing: 0.2em;
-  font-size: 18px;
+  font-size: 20px;
   color: white;
 }
 
@@ -20,6 +20,6 @@ body {
   left: 300px;
   bottom:
   letter-spacing: 0.2em;
-  font-size: 18px;
+  font-size: 20px;
   color: white;
 }
