@@ -25,15 +25,20 @@ function getTotalPoints()
   var TotalPoints=0
   var theForm = document.forms["cakeform"]
   var listofbuttons = theForm.elements["selectedcake"]
+  var counter=0;
 
   for(i = 0; i < listofbuttons.length; i++)
   {
     if(listofbuttons[i].checked)
     {
       TotalPoints += point_levels[listofbuttons[i].value];
+      counter=counter+1;
     }
   }
-  return TotalPoints;
+if (counter<10){
+  alert("You forgot a question")
+}
+    return TotalPoints;
 }
 
 function getSign()
