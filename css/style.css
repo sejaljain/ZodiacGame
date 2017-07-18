@@ -1,5 +1,5 @@
 body {
-  background: blue;
+  background: #3E4777;
   overflow: hidden;
   margin: 0;
 }
@@ -10,5 +10,5 @@ body {
   right: 20px;
   letter-spacing: 0.2em;
   font-size: 18px;
-  color: pink;
+  color: white;
 }

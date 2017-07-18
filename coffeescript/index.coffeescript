@@ -1,7 +1,7 @@
 class Particles
   constructor: () ->
     @canvasMouse = {x: 0, y: 0, z: 0, px: 0, py: 0, py: 0, vx: 0, vy: 0, pressed: false}
-    @colors = ['purple', 'yellow', 'green', 'blue']
+    @colors = ['#da6b00', '#8555d4', '#4ad3b5', '#ffffff']
     @particleCount = 500
     @initialRadius = 0.1
     @movementSpeed = 2
@@ -14,7 +14,7 @@ class Particles
     @setLighting()
 
     @setActors()
-
+    
     setInterval =>
       @systemCount++
       @addStars(@getPastelColor(), 0, 0)

@@ -1,0 +1,25 @@
+body {
+  background: #3E4777;
+  overflow: hidden;
+  margin: 2;
+}
+
+.instructions {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  letter-spacing: 0.2em;
+  font-size: 20px;
+  color: white;
+}
+
+.start {
+  position: absolute;
+  top: 400px;
+  right: 100px;
+  left: 300px;
+  bottom:
+  letter-spacing: 0.2em;
+  font-size: 20px;
+  color: white;
+}
