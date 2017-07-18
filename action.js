@@ -68,7 +68,7 @@ function getSign()
 
       document.getElementById('1').innerHTML=Gemini[0];
       document.getElementById('2').innerHTML=Gemini[1];
-      document.getE lementById('3').innerHTML=Gemini[2];
+      document.getElementById('3').innerHTML=Gemini[2];
       document.getElementById('4').innerHTML=Gemini[3];
 
       setTarget(4);
