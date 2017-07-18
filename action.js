@@ -92,7 +92,7 @@ function getSign()
       document.getElementById('6').innerHTML="Cancers are homebodies that don't crave spotlight or attention and are typically satisfied with the little things in life. Because cancers are more introverted they will enjoy the company of a Sagittarius, as they, too, enjoy more introspective thinking.";
 
     }
-    else if (total ==22){
+    else if (total == 22){
 
       document.getElementById('1').innerHTML=Aries[0];
       document.getElementById('2').innerHTML=Aries[1];
