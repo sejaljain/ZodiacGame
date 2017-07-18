@@ -62,13 +62,13 @@ if (counter<10){
 function getSign()
 {
 
-    var total = getTotalPoints();
-    console.log(total);
-    if (total > 49){
+    var total = getTotalPoints()
+    if (total==24){
+
 
       document.getElementById('1').innerHTML=Gemini[0];
       document.getElementById('2').innerHTML=Gemini[1];
-      document.getElementById('3').innerHTML=Gemini[2];
+      document.getE lementById('3').innerHTML=Gemini[2];
       document.getElementById('4').innerHTML=Gemini[3];
 
       setTarget(4);
@@ -78,7 +78,7 @@ function getSign()
 
     }
 
-    else if (total > 47 ){
+    else if (total == 26 ){
 
 
       document.getElementById('1').innerHTML=Cancer[0];
@@ -92,7 +92,7 @@ function getSign()
       document.getElementById('6').innerHTML="Cancers are homebodies that don't crave spotlight or attention and are typically satisfied with the little things in life. Because cancers are more introverted they will enjoy the company of a Sagittarius, as they, too, enjoy more introspective thinking.";
 
     }
-    else if (total > 45){
+    else if (total ==22){
 
       document.getElementById('1').innerHTML=Aries[0];
       document.getElementById('2').innerHTML=Aries[1];
@@ -104,7 +104,7 @@ function getSign()
 
     }
 
-    else if (total >40){
+    else if (total == 32){
 
 
       document.getElementById('1').innerHTML=Virgo[0];
@@ -117,7 +117,7 @@ function getSign()
 
     }
 
-    else if (total > 38){
+    else if (total == 41){
 
 
       document.getElementById('1').innerHTML=Capricorn[0];
@@ -129,7 +129,7 @@ function getSign()
       setTarget(11);
 
     }
-    else if (total > 35){
+    else if (total==18){
 
       document.getElementById('1').innerHTML=Leo[0];
       document.getElementById('2').innerHTML=Leo[1];
@@ -141,7 +141,7 @@ function getSign()
 
 
     }
-    else if (total > 32){
+    else if (total==37){
 
       document.getElementById('1').innerHTML=Taurus[0];
       document.getElementById('2').innerHTML=Taurus[1];
@@ -156,7 +156,7 @@ function getSign()
     }
 
 
-    else if (total >29){
+    else if (total==21){
 
 
       document.getElementById('1').innerHTML=Scorpio[0];
@@ -169,7 +169,7 @@ function getSign()
 
     }
 
-    else if (total >26){
+    else if (total == 20){
 
 
       document.getElementById('1').innerHTML=Libra[0];
@@ -183,7 +183,7 @@ function getSign()
     }
 
 
-    else if (total >24){
+    else if (total == 16){
 
 
       document.getElementById('1').innerHTML=Aquarius[0];
@@ -196,8 +196,7 @@ function getSign()
 
     }
 
-    else if (total >18){
-
+    else if (total == 13){
 
       document.getElementById('1').innerHTML=Pisces[0];
       document.getElementById('2').innerHTML=Pisces[1];
